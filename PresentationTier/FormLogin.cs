@@ -107,7 +107,7 @@ namespace QuanLyKhachSan
                 {
                     if (KiemTra[0].Password.CompareTo(password) == 0)
                     {
-                        MessageBox.Show("Dang nhap thanh cong");
+                        MessageBox.Show("Chuc mung bạn dang nhap thanh cong");
                         FormMain formMain = new FormMain();
 
                         formMain.Show();
